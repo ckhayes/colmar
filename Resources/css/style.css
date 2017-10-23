@@ -1,8 +1,138 @@
 
-.header {
-  display: flex;
+body {
+  max-width: 1200px;
 }
 
-.header .nav {
-  display: block;
+.topcontainer {
+  display: flex;
+  flex-direction: row;
+}
+
+header {
+  height: 64px;
+  align-items: center;
+  width: 100%;
+
+}
+
+header nav {
+  display: inline-block;
+  text-align: right;
+  width: 100%;
+}
+
+span a {
+text-decoration: none;
+text-align: right;
+}
+
+
+.main {
+  max-width: 1000px;
+
+}
+
+/* section 1 */
+
+.container {
+  display: flex;
+  width: 1000px;
+}
+
+.container img {
+  max-width: 60%;
+  margin-left: 72px;
+  margin-right: 72px;
+
+}
+
+.information {
+  width: 40%;
+
+}
+
+.infotext {
+  width: 65%;
+}
+
+.infotext ul li {
+  line-height: 1.1;
+}
+
+.orientation {
+  height: auto;
+}
+
+.picture {
+  padding-top: 32px;
+
+}
+
+.learn {
+  padding-top: 70px;
+}
+
+.learn h1 {
+font-weight: bold;
+font-size: 36px;
+}
+
+.learn h3 {
+line-height: 1.5;
+}
+
+.learn span {
+background-color: grey;
+color: white;
+margin-left: 75px;
+font-size: 1rem;
+
+}
+
+
+/*section 2 */
+
+.pictext {
+  margin-left: 64px;
+  margin-top: 32px;
+}
+
+.pictext h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+
+}
+
+.pictext p {
+
+}
+
+.pictext h4 {
+  margin-top: 32px;
+  font-size: 10px;
+}
+
+ul li:first-child {
+  font-weight: bold;
+}
+
+
+/* Start Learning */
+
+.container2 {
+  display: inline-block;
+  margin: 72px;
+  max-width: 1000px;
+
+}
+
+.info {
+display: inline-flex;
+margin-top: 32px;
+width: 400px;
+}
+
+.info img {
+  width: 140px;
+  height: 140px;
 }
