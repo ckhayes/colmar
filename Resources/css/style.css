@@ -11,7 +11,7 @@ body {
 header {
   height: 64px;
   align-items: center;
-  width: 100%;
+  width: 1000px;
 
 }
 
@@ -24,11 +24,12 @@ header nav {
 span a {
 text-decoration: none;
 text-align: right;
+justify-content: space-around;
 }
 
 
 .main {
-  max-width: 1000px;
+  max-width: 1200px;
 
 }
 
@@ -36,11 +37,12 @@ text-align: right;
 
 .container {
   display: flex;
-  width: 1000px;
+  width: 1200px;
 }
 
+
 .container img {
-  max-width: 60%;
+  max-width: 600px;
   margin-left: 72px;
   margin-right: 72px;
 
@@ -49,6 +51,10 @@ text-align: right;
 .information {
   width: 40%;
 
+}
+
+.info img {
+  
 }
 
 .infotext {
@@ -81,12 +87,25 @@ font-size: 36px;
 line-height: 1.5;
 }
 
+/*
 .learn span {
 background-color: grey;
 color: white;
 margin-left: 75px;
 font-size: 1rem;
 
+}
+*/
+
+.button {
+  width: 150px;
+  height: 34px;
+  color: white;
+  margin-left: 55px;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 1.2rem;
+  background-color: #4424D6;
 }
 
 
@@ -95,6 +114,7 @@ font-size: 1rem;
 .pictext {
   margin-left: 64px;
   margin-top: 32px;
+  width: 400px;
 }
 
 .pictext h2 {
@@ -102,6 +122,16 @@ font-size: 1rem;
   font-weight: bold;
 
 }
+
+.title {
+  width: auto;
+}
+
+.title span {
+align-items: center;
+}
+
+
 
 .pictext p {
 
@@ -116,23 +146,88 @@ ul li:first-child {
   font-weight: bold;
 }
 
+.info {
+display: inline-flex;
+margin-top: 32px;
+width: 400px;
+background-color: #EDEFE4;
+}
+
+.info img {
+  width: 140px;
+  height: 140px;
+}
+
 
 /* Start Learning */
 
+/*
 .container2 {
   display: inline-block;
   margin: 72px;
   max-width: 1000px;
 
 }
+*/
 
-.info {
-display: inline-flex;
-margin-top: 32px;
-width: 400px;
+.container h2 {
+
 }
 
-.info img {
-  width: 140px;
-  height: 140px;
+.group1 {
+margin-top: 72px;
+}
+
+.group2 {
+  margin-top: 72px;
+
+}
+
+.group3 {
+  margin-top: 72px;
+}
+
+.coursepics {
+  width: 350px;
+}
+
+
+.coursepics img {
+  height: 150px;
+  width: 300px;
+}
+
+.courseinfo {
+  height: 150px;
+  background-color: white;
+  text-align: left;
+  align-items: center;
+  padding-top: 10px;
+  line-height: 1.2;
+  overflow: auto;
+  width: 200px;
+  margin: auto;
+
+}
+
+.courseinfo ul li {
+
+}
+
+
+/* last section */
+
+.heading {
+  padding-bottom: 15px;
+
+}
+
+/* footer */
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  border-top: .5px solid grey;
+  height: 64px;
+  padding-top: 24px;
 }
