@@ -3,10 +3,28 @@ body {
   max-width: 1200px;
 }
 
+@media only screen and (max-width: 840px) {
+main {
+  overflow: hidden;
+}
+}
+
 .topcontainer {
   display: flex;
   flex-direction: row;
+
 }
+
+.logo {
+  display: inline-flex;
+}
+
+@media only screen and (max-width: 480px) {
+  .logoname {
+    display: none;
+  }
+}
+
 
 header {
   height: 64px;
@@ -40,6 +58,11 @@ justify-content: space-around;
   width: 1200px;
 }
 
+.container:nth-child(2n+1) {
+  background-color: lightgray;
+}
+
+
 
 .container img {
   max-width: 600px;
@@ -54,11 +77,16 @@ justify-content: space-around;
 }
 
 .info img {
-  
+
 }
 
 .infotext {
   width: 65%;
+  padding-top: 20px;
+}
+
+.infotext ul {
+
 }
 
 .infotext ul li {
@@ -106,6 +134,11 @@ font-size: 1rem;
   padding-top: 10px;
   font-size: 1.2rem;
   background-color: #4424D6;
+  border: .5px solid #44D6;
+}
+
+.button:hover {
+  background-color: blue;
 }
 
 
@@ -144,6 +177,7 @@ align-items: center;
 
 ul li:first-child {
   font-weight: bold;
+  font-size: 1.25em;
 }
 
 .info {
@@ -156,6 +190,9 @@ background-color: #EDEFE4;
 .info img {
   width: 140px;
   height: 140px;
+  margin-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 
@@ -170,16 +207,30 @@ background-color: #EDEFE4;
 }
 */
 
+
+@media only screen and (max-width: 480px) {
+  .coursepics img {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .courseinfo  {
+    display: block;
+  }
+}
 .container h2 {
 
 }
 
 .group1 {
 margin-top: 72px;
+/* display: inline-flex;*/
 }
 
 .group2 {
   margin-top: 72px;
+/* display: inline-flex; */
 
 }
 
@@ -198,15 +249,18 @@ margin-top: 72px;
 }
 
 .courseinfo {
-  height: 150px;
+  height: 120px;
   background-color: white;
   text-align: left;
   align-items: center;
   padding-top: 10px;
   line-height: 1.2;
   overflow: auto;
-  width: 200px;
+  width: 270px;
   margin: auto;
+  margin-left: 72px;
+  padding-left: 32px;
+  margin-bottom: 12px;
 
 }
 
@@ -221,6 +275,43 @@ margin-top: 72px;
   padding-bottom: 15px;
 
 }
+
+.videotext {
+  padding-top: 16px;
+  padding-bottom: 32px;
+  width: 600px;
+
+}
+
+.videotext h3 {
+  font-weight: bold;
+  font-size: 1.25em;
+}
+
+.thesisinfo {
+  padding-top: 32px;
+
+}
+
+.thesispic {
+  display: inline-flex;
+}
+
+.thesispic img {
+  width: 140px;
+  height: 140px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.thesistext {
+  padding-top: 32px;
+}
+
+.thesistext h2 {
+  font-weight: bold;
+}
+
 
 /* footer */
 
