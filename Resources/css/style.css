@@ -344,8 +344,8 @@ background-color: lightgrey;
 @media only screen and (max-width: 480px) {
   .courseinfo  {
     display: block;
-    height: 32px;
-    margin-right: 72px;
+    height: 40px;
+  /*  margin-right: 72px; */
     align-items: center;
 
   }
@@ -554,12 +554,29 @@ background-color: lightgray;
   border-top: .5px solid grey;
   height: 64px;
   padding-top: 24px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 480px) {
+  .footer {
+    height: 60px;
+  }
+}
+
+.rights {
+  padding-left: 10px;
 }
 
 .terms {
-  padding-left: 500px;
+  padding-left: 700px;
 }
 
 .terms span {
   justify-content: space-between;
+}
+
+@media only screen and (max-width: 480px) {
+  .terms {
+    display: none;
+  }
 }
