@@ -37,7 +37,8 @@ main {
 header {
   height: 64px;
   align-items: center;
-  width: 1000px;
+  width: 1200px;
+  font-family: lato;
 
 }
 
@@ -55,6 +56,7 @@ text-align: right;
 justify-content: space-around;
 padding-left: 10px;
 color: black;
+font-family: lato;
 }
 
 span a:hover {
